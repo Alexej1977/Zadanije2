@@ -1,0 +1,211 @@
+ body {
+     padding: 60px;
+     background-color: #f0e8e3;
+ }
+
+ .container {
+     display: flex;
+     width: 1100px;
+     margin-right: auto;
+     margin-left: auto;
+     background-color: #fff;
+     box-shadow: 10px 10px 20px 0px hsla(0, 0%, 0%, 0.1)
+ }
+
+ .right-side {
+    padding-top: 68px;
+    padding-right: 200px;
+    padding-bottom: 68px;
+    padding-left: 80px;
+    width: 730px;
+    background-color: #fff;
+  }
+
+  .left-side {
+    width: 370px;
+    min-height: 370px;
+    background-color: #1e2939
+  }
+
+ .bio-title {
+    font-size: 35px;
+    line-height: 2;
+    margin-bottom: 20px;
+  
+  }
+  
+  .bio-occupation {
+    margin-bottom: 27px;
+    font-size: 22px;  
+  }
+  
+  .bio-title ,
+  .bio-occupation {
+    color: #2a2a2a;
+  }
+  
+  .bio-occupation,
+  .bio-about {    
+    line-height: 1.714;
+  }
+  
+  .bio-about {
+    color: #595959;
+    font-size: 14px;
+  }
+
+  .projects-title {
+    margin-bottom: 14px;
+    color: #2a2a2a;
+    font-size: 22px;
+    line-height: 1.091;
+  }
+  
+  .projects-link {
+    color: #220fdc;
+    font-size: 14px;
+    line-height: 1.714;
+  }
+  .projects-link:hover {
+    color: #ff6b08;
+  }
+
+  .contacts-link {
+    color: #595959;
+    text-decoration: none;
+  }
+  .contacts-link:hover {
+    color: #ff6b08
+  }
+
+  .jobs-title {
+    color: #2a2a2a;
+    font-size: 22px;
+    line-height: 1.091;
+    margin-bottom: 26px;
+  }
+  
+  .jobs-occupation {
+    color: #2a2a2a;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  
+  .jobs-time {
+    color: #828282;
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 18px;
+  }
+  
+  .experience-item {
+    color: #595959;
+    font-size: 14px;
+    line-height: 1.714;
+    margin-bottom: 10px;
+  }
+  
+  .accent{
+    color: #ff6b08
+  }
+
+  .experience {
+    margin-bottom: 28px;
+  }
+
+  .education-title {
+    color: #2a2a2a;
+    font-size: 22px;
+    line-height:1.091;
+    margin-bottom: 26px;
+  }
+  
+  .education-degree {
+    color: #2a2a2a;
+    font-size: 16px;
+    line-height:1.5;
+    margin-bottom: 16px;
+  }
+  
+  
+  .education-time {
+    color: #828282;
+    font-size: 12px;
+    line-height:2;
+    margin-bottom: 18px;
+  }
+
+  .bio,
+.projects,
+.jobs,
+.education {
+  margin-bottom: 60px;
+}
+
+  .photo {
+    width:370px;    
+  }
+
+  .contacts-title {
+    font-size: 22px;
+    line-height: 1.091;
+    color: #fff;
+  }
+  
+  .contacts-item {
+    font-size: 14px;
+    line-height: 1.714;
+    color: #fff;
+  }
+  
+  .contacts-link {
+    opacity: 0.6;
+    color: #fff;
+  }
+
+  .contacts-link:hover {
+    opacity: 1;
+  }
+
+  .skills-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .skills-title {
+    font-size: 22px;
+    line-height: 1.091
+  }
+  
+  .skills-item {
+    font-size: 14px;
+    line-height: 1.714;
+    opacity: 0.6;
+
+  }
+
+  .skills-item::before  {
+    content:'\2022';
+    margin-right: 8px;
+    color: #ff6b08;
+    font-size: 18px;
+  }
+
+  .photo,
+.contacts,
+.skills {
+  margin-bottom: 60px;
+}
+
+.contacts,
+.skills {
+  padding-left: 40px;
+  color: #fff;
+  
+}
+
+
+
+
+
